@@ -1,6 +1,7 @@
 # Hossein Bodaghie's Responsive Portfolio Website
 ## Website URL: https://hossein-bodaghi.github.io/
 
+- The main project is from [Erol Bicer](https://github.com/nucerl)
 - The design is based on [Bedimcode](https://github.com/bedimcode)
 - The resume is created on [FlowCV](https://flowcv.com/)
 - The email service provider is [EmailJs](https://www.emailjs.com/)
