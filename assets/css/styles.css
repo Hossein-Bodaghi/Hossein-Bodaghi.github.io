@@ -640,7 +640,7 @@ img {
 .projects__content{
   position: relative;
   background-color: var(--container-color);
-  padding: 3.5rem .5rem 1.25rem 1.5rem;
+  padding: 20px 20px 10px 20px;
   border-radius: .25rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
   transition: .3s;
@@ -671,7 +671,12 @@ img {
 .projects__button:hover .button__icon{
   transform: translateX(.25rem);
 }
-
+.projects__image {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 1rem auto; /* Center the image horizontally and add margin at the bottom */
+  margin-right: var(--mb-0-25);
+}
 .projects__modal{
   position: fixed;
   top: 0;
@@ -727,6 +732,13 @@ img {
 
 .projects__modal-icon{
   color: var(--first-color);
+  margin-right: var(--mb-0-25);
+}
+
+.projects__image {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 1rem auto; /* Center the image horizontally and add margin at the bottom */
   margin-right: var(--mb-0-25);
 }
 
@@ -1332,7 +1344,7 @@ img {
   }
 
   .projects__content{
-    padding: 6rem 0 2rem 2.5rem;
+    /* padding: 6rem 0 2rem 2.5rem; */
   }
 
   .projects__modal-content{
